@@ -31,18 +31,25 @@ ul li{
     list-style-type: none;
     cursor: pointer;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
 .art{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     padding : 20px;
     box-sizing: border-box;
     margin-top: 150px;
+    width: 100%;
 }
 .eve{
     
     width: 100%;
-    height: 200px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -83,6 +90,12 @@ ul li{
     opacity: 0.8;
     border-style: none;
     transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn1 p{
+    font-size: 1.1rem;
 }
 .btn1:focus,.btn2:focus{
     background-color: whitesmoke;
@@ -93,11 +106,11 @@ ul li{
     background-color:black;
     width: 100%;
     height: 100px;
-    position: absolute;
-    bottom: 0px;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 10px;
 }
 .r{
     color: white;
